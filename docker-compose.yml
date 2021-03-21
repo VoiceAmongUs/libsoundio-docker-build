@@ -2,7 +2,7 @@ version: '3'
 
 services:
   libsoundio:
-    image: stargate01/libsoundio-builder:latest
+    image: voiceamongus/libsoundio-builder:latest
     build: .
     volumes: 
       - ./libsoundio:/app/libsoundio:rw
