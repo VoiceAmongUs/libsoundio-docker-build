@@ -13,12 +13,12 @@ Clone this repository using `git clone --recurse-submodules`.
 
 Use the provided VSCode tasks or invoke the commands manually:
 
-Run `docker-compose build` to build the `registry.chrz.de/public/libsoundio-builder` image, or download a cached version via `docker-compose pull`.
+Run `docker-compose build` to build the image, or download a cached version via `docker-compose pull` from the Docker Hub.
 
 ## Usage
 
 Use the provided VSCode tasks or invoke the commands manually:
 
-Run `docker-compose run registry.chrz.de/public/libsoundio-builder /app/scripts/compile.sh` to compile the library. Binaries will be placed inside `build`.
+Run `docker-compose run libsoundio /app/scripts/compile.sh` to compile the library. Binaries will be placed inside `build`.
 
-Run `docker-compose run registry.chrz.de/public/libsoundio-builder /app/scripts/clean.sh`to clean the build tree.
+Run `docker-compose run libsoundio /app/scripts/clean.sh`to clean the build tree.

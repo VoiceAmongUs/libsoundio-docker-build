@@ -2,7 +2,7 @@ version: '3'
 
 services:
   libsoundio:
-    image: registry.chrz.de/public/libsoundio-builder:latest
+    image: stargate01/libsoundio-builder:latest
     build: .
     volumes: 
       - ./libsoundio:/app/libsoundio:rw
