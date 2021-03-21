@@ -2,8 +2,9 @@ version: '3'
 
 services:
   libsoundio:
-    image: voiceamongus/libsoundio
+    image: registry.chrz.de/public/libsoundio-builder:latest
     build: .
     volumes: 
       - ./libsoundio:/app/libsoundio:rw
+      - ./build:/app/build:rw
           
