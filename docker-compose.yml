@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  libsoundio:
+    image: voiceamongus/libsoundio
+    build: .
+    volumes: 
+      - ./libsoundio:/app/libsoundio:rw
+          
