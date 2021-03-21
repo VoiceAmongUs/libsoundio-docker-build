@@ -1,0 +1,4 @@
+[submodule "libsoundio"]
+	path = libsoundio
+	url = https://github.com/VoiceAmongUs/libsoundio.git
+	branch = v2
