@@ -5,19 +5,14 @@ Docker build environment for libsoundio
 
 - Docker
 - Docker Compose
-- Optional: VSCode
 
 ## Setup
 
 Clone this repository using `git clone --recurse-submodules`.
 
-Use the provided VSCode tasks or invoke the commands manually:
-
 Run `docker-compose build` to build the image, or download a cached version via `docker-compose pull` from the [Docker Hub](https://hub.docker.com/r/voiceamongus/libsoundio-builder).
 
 ## Usage
-
-Use the provided VSCode tasks or invoke the commands manually:
 
 Run `docker-compose run libsoundio /app/scripts/compile.sh` to compile the library. Binaries will be placed inside `build`.
 
