@@ -2,3 +2,6 @@
 	path = libsoundio
 	url = https://github.com/VoiceAmongUs/libsoundio.git
 	branch = v2
+[submodule "rnnoise"]
+	path = rnnoise
+	url = https://github.com/VoiceAmongUs/rnnoise
