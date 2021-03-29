@@ -22,8 +22,4 @@ RUN git clone --depth=1 https://github.com/mxe/mxe.git
 RUN cd mxe && \
     make MXE_TARGETS='x86_64-w64-mingw32.static i686-w64-mingw32.static' gcc cmake
 
-# Import scripts
-COPY ./scripts /app/scripts
-RUN chmod +x /app/scripts/*.sh
-
 ENTRYPOINT [ "bash" ]

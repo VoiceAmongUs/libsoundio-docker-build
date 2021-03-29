@@ -5,6 +5,8 @@ services:
     image: voiceamongus/libsoundio-builder:latest
     build: .
     volumes: 
+      - ./scripts:/app/scripts:ro
       - ./libsoundio:/app/libsoundio:rw
+      - ./rnnoise:/app/rnnoise:rw
       - ./build:/app/build:rw
           
