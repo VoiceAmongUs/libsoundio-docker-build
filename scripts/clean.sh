@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd /app
-rm -rf build/* libsoundio/build rnnoise/build
+rm -rf build/* libsoundio/build rnnoise/build opus/build
